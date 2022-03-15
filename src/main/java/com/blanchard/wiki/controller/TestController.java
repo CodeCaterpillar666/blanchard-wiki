@@ -1,6 +1,8 @@
 package com.blanchard.wiki.controller;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 ctrl点击@RestController可以跳转到其定义代码，发现它也是@Controller，只是多了一个@ResponseBod，表示返回的是json或者字符串
 */
 public class TestController {
+
+  @Value("${test.Hello}")
+  private String testHello;
 
   /*
   * 1.@RequestMapping注解会处理get,post,put,delete四种请求
@@ -22,5 +27,10 @@ public class TestController {
   @GetMapping("/hello")
   public String hello() {
     return "Hello world!";
+  }
+
+  @PostMapping("/hello/post")
+  public String helloPost() {
+    return "Hello world! Post, " + testHello;
   }
 }

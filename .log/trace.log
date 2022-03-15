@@ -62,3 +62,165 @@
 2022-03-14 17:53:39.298 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-03-14 17:53:39.321 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2022-03-14 17:53:39.332 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 9 ms
+2022-03-14 18:01:11.528 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-14 18:01:29.438 INFO  com.blanchard.wiki.config.WikiApplication         :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.14 on 9527deMacBook-Pro.local with PID 70377 (/Users/webdev/wiki/target/classes started by a9527 in /Users/webdev/wiki)
+2022-03-14 18:01:29.440 INFO  com.blanchard.wiki.config.WikiApplication         :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-14 18:01:31.040 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-03-14 18:01:31.049 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-03-14 18:01:31.051 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-14 18:01:31.053 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-03-14 18:01:31.124 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-14 18:01:31.125 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1592 ms
+2022-03-14 18:01:31.510 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-14 18:01:31.739 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-03-14 18:01:31.764 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-03-14 18:01:31.791 INFO  com.blanchard.wiki.config.WikiApplication         :61   [32m                  [0;39m Started WikiApplication in 3.401 seconds (JVM running for 4.774)
+2022-03-14 18:01:31.795 INFO  com.blanchard.wiki.config.WikiApplication         :19   [32m                  [0;39m 启动成功！！
+2022-03-14 18:01:31.797 INFO  com.blanchard.wiki.config.WikiApplication         :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-03-14 18:01:44.217 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-14 18:01:44.228 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-03-14 18:01:44.238 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 9 ms
+2022-03-14 18:01:44.274 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :207  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-03-14 18:59:21.738 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:05:48.169 INFO  com.blanchard.wiki.config.WikiApplication         :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.14 on 9527deMacBook-Pro.local with PID 71110 (/Users/webdev/wiki/target/classes started by a9527 in /Users/webdev/wiki)
+2022-03-14 19:05:48.179 INFO  com.blanchard.wiki.config.WikiApplication         :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-14 19:05:48.309 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-14 19:05:48.312 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-14 19:05:50.065 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-03-14 19:05:50.076 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:05:50.077 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-14 19:05:50.078 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-03-14 19:05:50.170 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-14 19:05:50.171 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1857 ms
+2022-03-14 19:05:50.610 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:05:51.112 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-14 19:05:51.150 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:05:51.180 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-03-14 19:05:51.222 INFO  com.blanchard.wiki.config.WikiApplication         :61   [32m                  [0;39m Started WikiApplication in 4.688 seconds (JVM running for 7.524)
+2022-03-14 19:05:51.229 INFO  com.blanchard.wiki.config.WikiApplication         :19   [32m                  [0;39m 启动成功！！
+2022-03-14 19:05:51.240 INFO  com.blanchard.wiki.config.WikiApplication         :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-03-14 19:05:59.530 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-14 19:05:59.534 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-03-14 19:05:59.539 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 4 ms
+2022-03-14 19:06:40.345 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:06:40.969 INFO  com.blanchard.wiki.config.WikiApplication         :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.14 on 9527deMacBook-Pro.local with PID 71110 (/Users/webdev/wiki/target/classes started by a9527 in /Users/webdev/wiki)
+2022-03-14 19:06:40.983 INFO  com.blanchard.wiki.config.WikiApplication         :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-14 19:06:41.886 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-03-14 19:06:41.894 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:06:41.895 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-14 19:06:41.895 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-03-14 19:06:41.961 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-14 19:06:41.962 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 888 ms
+2022-03-14 19:06:42.236 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:06:42.483 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-14 19:06:42.510 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:06:42.513 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-03-14 19:06:42.532 INFO  com.blanchard.wiki.config.WikiApplication         :61   [32m                  [0;39m Started WikiApplication in 2.045 seconds (JVM running for 58.833)
+2022-03-14 19:06:42.564 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-14 19:06:42.565 INFO  com.blanchard.wiki.config.WikiApplication         :19   [32m                  [0;39m 启动成功！！
+2022-03-14 19:06:42.565 INFO  com.blanchard.wiki.config.WikiApplication         :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-03-14 19:06:44.996 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:06:45.340 INFO  com.blanchard.wiki.config.WikiApplication         :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.14 on 9527deMacBook-Pro.local with PID 71110 (/Users/webdev/wiki/target/classes started by a9527 in /Users/webdev/wiki)
+2022-03-14 19:06:45.343 INFO  com.blanchard.wiki.config.WikiApplication         :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-14 19:06:45.795 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-03-14 19:06:45.797 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:06:45.797 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-14 19:06:45.798 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-03-14 19:06:45.818 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-14 19:06:45.819 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 462 ms
+2022-03-14 19:06:45.947 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:06:46.151 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-14 19:06:46.165 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:06:46.170 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-03-14 19:06:46.183 INFO  com.blanchard.wiki.config.WikiApplication         :61   [32m                  [0;39m Started WikiApplication in 1.022 seconds (JVM running for 62.483)
+2022-03-14 19:06:46.185 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-14 19:06:46.187 INFO  com.blanchard.wiki.config.WikiApplication         :19   [32m                  [0;39m 启动成功！！
+2022-03-14 19:06:46.192 INFO  com.blanchard.wiki.config.WikiApplication         :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-03-14 19:11:04.137 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:11:05.209 INFO  com.blanchard.wiki.config.WikiApplication         :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.14 on 9527deMacBook-Pro.local with PID 71110 (/Users/webdev/wiki/target/classes started by a9527 in /Users/webdev/wiki)
+2022-03-14 19:11:05.210 INFO  com.blanchard.wiki.config.WikiApplication         :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-14 19:11:05.760 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-03-14 19:11:05.763 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:11:05.764 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-14 19:11:05.764 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-03-14 19:11:05.780 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-14 19:11:05.783 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 556 ms
+2022-03-14 19:11:05.887 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:11:05.941 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-14 19:11:05.950 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:11:05.954 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-03-14 19:11:05.958 INFO  com.blanchard.wiki.config.WikiApplication         :61   [32m                  [0;39m Started WikiApplication in 1.235 seconds (JVM running for 322.253)
+2022-03-14 19:11:05.960 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-14 19:11:05.960 INFO  com.blanchard.wiki.config.WikiApplication         :19   [32m                  [0;39m 启动成功！！
+2022-03-14 19:11:05.963 INFO  com.blanchard.wiki.config.WikiApplication         :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-03-14 19:11:18.555 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:11:18.913 INFO  com.blanchard.wiki.config.WikiApplication         :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.14 on 9527deMacBook-Pro.local with PID 71110 (/Users/webdev/wiki/target/classes started by a9527 in /Users/webdev/wiki)
+2022-03-14 19:11:18.919 INFO  com.blanchard.wiki.config.WikiApplication         :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-14 19:11:19.242 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-03-14 19:11:19.244 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:11:19.244 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-14 19:11:19.244 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-03-14 19:11:19.259 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-14 19:11:19.259 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 319 ms
+2022-03-14 19:11:19.372 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:11:19.409 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-14 19:11:19.415 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:11:19.427 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-03-14 19:11:19.436 INFO  com.blanchard.wiki.config.WikiApplication         :61   [32m                  [0;39m Started WikiApplication in 0.721 seconds (JVM running for 335.732)
+2022-03-14 19:11:19.438 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-14 19:11:19.438 INFO  com.blanchard.wiki.config.WikiApplication         :19   [32m                  [0;39m 启动成功！！
+2022-03-14 19:11:19.438 INFO  com.blanchard.wiki.config.WikiApplication         :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-03-14 19:16:52.724 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:16:53.276 INFO  com.blanchard.wiki.config.WikiApplication         :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.14 on 9527deMacBook-Pro.local with PID 71110 (/Users/webdev/wiki/target/classes started by a9527 in /Users/webdev/wiki)
+2022-03-14 19:16:53.283 INFO  com.blanchard.wiki.config.WikiApplication         :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-14 19:16:53.809 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-03-14 19:16:53.811 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:16:53.811 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-14 19:16:53.811 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-03-14 19:16:53.834 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-14 19:16:53.834 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 536 ms
+2022-03-14 19:16:53.926 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:16:53.976 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-14 19:16:53.986 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:16:53.991 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-03-14 19:16:53.996 INFO  com.blanchard.wiki.config.WikiApplication         :61   [32m                  [0;39m Started WikiApplication in 1.068 seconds (JVM running for 670.244)
+2022-03-14 19:16:53.998 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-14 19:16:53.999 INFO  com.blanchard.wiki.config.WikiApplication         :19   [32m                  [0;39m 启动成功！！
+2022-03-14 19:16:53.999 INFO  com.blanchard.wiki.config.WikiApplication         :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-03-14 19:17:13.677 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:17:14.230 INFO  com.blanchard.wiki.config.WikiApplication         :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.14 on 9527deMacBook-Pro.local with PID 71110 (/Users/webdev/wiki/target/classes started by a9527 in /Users/webdev/wiki)
+2022-03-14 19:17:14.232 INFO  com.blanchard.wiki.config.WikiApplication         :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-14 19:17:14.634 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-03-14 19:17:14.643 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:17:14.644 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-14 19:17:14.644 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-03-14 19:17:14.666 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-14 19:17:14.667 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 419 ms
+2022-03-14 19:17:14.731 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:17:14.765 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-14 19:17:14.769 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:17:14.776 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-03-14 19:17:14.781 INFO  com.blanchard.wiki.config.WikiApplication         :61   [32m                  [0;39m Started WikiApplication in 0.697 seconds (JVM running for 691.028)
+2022-03-14 19:17:14.784 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-14 19:17:14.784 INFO  com.blanchard.wiki.config.WikiApplication         :19   [32m                  [0;39m 启动成功！！
+2022-03-14 19:17:14.785 INFO  com.blanchard.wiki.config.WikiApplication         :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
+2022-03-14 19:17:42.632 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-14 19:17:42.638 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-03-14 19:17:42.641 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 3 ms
+2022-03-14 19:17:56.635 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:17:56.999 INFO  com.blanchard.wiki.config.WikiApplication         :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.14 on 9527deMacBook-Pro.local with PID 71110 (/Users/webdev/wiki/target/classes started by a9527 in /Users/webdev/wiki)
+2022-03-14 19:17:57.001 INFO  com.blanchard.wiki.config.WikiApplication         :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-14 19:17:57.362 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8888 (http)
+2022-03-14 19:17:57.371 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:17:57.372 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-14 19:17:57.373 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-03-14 19:17:57.396 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-14 19:17:57.397 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 381 ms
+2022-03-14 19:17:57.459 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-14 19:17:57.493 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-14 19:17:57.500 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8888"]
+2022-03-14 19:17:57.502 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8888 (http) with context path ''
+2022-03-14 19:17:57.515 INFO  com.blanchard.wiki.config.WikiApplication         :61   [32m                  [0;39m Started WikiApplication in 0.682 seconds (JVM running for 733.76)
+2022-03-14 19:17:57.516 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-14 19:17:57.517 INFO  com.blanchard.wiki.config.WikiApplication         :19   [32m                  [0;39m 启动成功！！
+2022-03-14 19:17:57.517 INFO  com.blanchard.wiki.config.WikiApplication         :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8888
